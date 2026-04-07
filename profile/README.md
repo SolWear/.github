@@ -4,68 +4,59 @@
 
 ### *Your Solana wallet on your wrist.*
 
-**A portable, light, hardware wallet for crypto — built into a smartwatch.**
+**A hardware wallet for crypto — built into a smartwatch you actually wear.**
 
-[![Solana](https://img.shields.io/badge/chain-Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com)
-[![RP2040](https://img.shields.io/badge/MCU-RP2040-blueviolet?style=for-the-badge)]()
-[![PlatformIO](https://img.shields.io/badge/build-PlatformIO-orange?style=for-the-badge)]()
-[![Status](https://img.shields.io/badge/status-Hackathon%20Demo-14F195?style=for-the-badge)]()
+[![Powered by Solana](https://img.shields.io/badge/Powered%20by-Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com)
+[![Frontier Hackathon](https://img.shields.io/badge/Built%20for-Frontier%20Hackathon-14F195?style=for-the-badge)]()
 
 </div>
 
 ---
 
-## What we're building
+## The pitch in one line
 
-Hardware wallets today are **single-purpose USB sticks** you forget in a drawer. We think the wallet you actually use should be the one you actually wear.
+**The safest way to hold crypto is a hardware wallet. The most used way is your phone. SolWear is both.**
 
-**SolWear** is a smartwatch that's also a Solana hardware wallet. It signs transactions, taps NFC payment tags, runs an app launcher, counts your steps, and never leaves your wrist. Built on a Waveshare RP2040-Touch-LCD-1.69 with our own from-scratch operating system.
+---
 
-| | |
-|---|---|
-| One purpose | Smartwatch + wallet + fitness + NFC |
-| Lives in a drawer | Lives on your wrist |
-| Plug into a computer | Tap a phone, tap a terminal |
-| You forget about it | You wear it 24/7 |
+## Why this exists
 
-## Our repositories
+Today's hardware wallets are USB sticks that live in a drawer. You dig them out, plug them in, approve one thing, put them away. They're the safest option — and the least used option — for exactly the same reason.
 
-| | |
-|---|---|
-| **[solwear](https://github.com/SolWear/solwear)** | The main project — hackathon showcase, prototype, landing page |
-| **[solwear_os](https://github.com/SolWear/solwear_os)** | Smartwatch firmware: HAL, kernel, UI, eight apps, Solana wallet |
-| **[solwear_service_tool](https://github.com/SolWear/solwear_service_tool)** | Desktop debugger: live console, status dashboard, UF2 flasher |
+Phone wallets are the opposite: always with you, always online, always one malicious app away from losing everything.
 
-## Hardware
+**We think the wallet you actually use should be the one you actually wear.**
 
-- **RP2040** · 264 KB SRAM · 16 MB flash
-- **ST7789V2** 1.69" 240×280 IPS touchscreen
-- **CST816S** capacitive touch
-- **QMI8658** 6-axis IMU
-- **PN532** NFC reader *(off by default)*
-- **1200 mAh** LiPo battery
-- Passive piezo audio
+## What SolWear is
 
-## SolWearOS highlights
+A smartwatch that's also a Solana hardware wallet. The design:
 
-- Custom from-scratch OS — **12 KB RAM · 196 KB flash**
-- Square-icon app launcher with eight apps
-- Lazy NFC initialization for security & power
-- Animated charging screen, live battery & system stats
-- Procedural icons & wallpapers (zero flash cost)
-- Three watch faces · LittleFS persistence · 30 fps event loop
+- Keys stay on the watch — never on a phone, never on a computer.
+- Transactions are approved with a tap, on the watch's own screen.
+- Payments go through by tapping NFC — phone, terminal, or another SolWear.
+- And under all of that, it's a **real smartwatch** — watch faces, step tracking, alarms, apps, the whole thing.
 
-## Built for
+## SolWear vs. the alternatives
 
-The **Frontier Hackathon** — by the SolWear team.
-Hardware, firmware, desktop tools, and branding — all in-house.
+| | Dedicated device | Always with you | Taps to pay | Actually used daily |
+|---|:---:|:---:|:---:|:---:|
+| USB hardware wallet | ✅ | ❌ | ❌ | ❌ |
+| Phone wallet app | ❌ | ✅ | ⚠️ | ✅ |
+| **SolWear** | **✅** | **✅** | **✅** | **✅** |
+
+## Who we are
+
+The **SolWear team**, building for the **Frontier Hackathon**. Hardware, firmware, desktop tooling, branding — all in-house. We built the full stack because the experience has to be native, not bolted on.
+
+## See more
+
+**[Full project, prototype & demo →](https://github.com/SolWear/solwear)**
 
 ---
 
 <div align="center">
 
-**[See the full project →](https://github.com/SolWear/solwear)**
-
-<sub>Portable. Light. Always with you. The Solana wallet you actually wear.</sub>
+*Portable. Light. Always on you.*
+**The Solana wallet you actually wear.**
 
 </div>
