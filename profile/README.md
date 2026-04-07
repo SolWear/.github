@@ -4,59 +4,54 @@
 
 ### *Your Solana wallet on your wrist.*
 
-**A hardware wallet for crypto — built into a smartwatch you actually wear.**
+**A portable, light, hardware wallet for crypto — built into a smartwatch you actually wear.**
 
-[![Powered by Solana](https://img.shields.io/badge/Powered%20by-Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com)
-[![Frontier Hackathon](https://img.shields.io/badge/Built%20for-Frontier%20Hackathon-14F195?style=for-the-badge)]()
+[![Solana](https://img.shields.io/badge/chain-Solana-9945FF?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com)
+[![Status](https://img.shields.io/badge/status-Hackathon%20Demo-14F195?style=for-the-badge)]()
 
 </div>
 
 ---
 
-## The pitch in one line
+## What we're building
 
-**The safest way to hold crypto is a hardware wallet. The most used way is your phone. SolWear is both.**
+Hardware wallets today are **single-purpose USB sticks** you forget in a drawer. We think the wallet you actually use should be the one you actually wear.
 
----
+**SolWear** is a smartwatch that's also a Solana hardware wallet. It's designed to sign transactions, tap NFC payment tags, run an app launcher, count your steps, and never leave your wrist — powered by our own from-scratch operating system.
 
-## Why this exists
+| | |
+|---|---|
+| One purpose | Smartwatch + wallet + fitness + NFC |
+| Lives in a drawer | Lives on your wrist |
+| Plug into a computer | Tap a phone, tap a terminal |
+| You forget about it | You wear it 24/7 |
 
-Today's hardware wallets are USB sticks that live in a drawer. You dig them out, plug them in, approve one thing, put them away. They're the safest option — and the least used option — for exactly the same reason.
+## Our repositories
 
-Phone wallets are the opposite: always with you, always online, always one malicious app away from losing everything.
+| | |
+|---|---|
+| **[solwear](https://github.com/SolWear/solwear)** | The main project — hackathon showcase, prototype, landing page |
+| **[solwear_os](https://github.com/SolWear/solwear_os)** | Smartwatch firmware |
+| **[solwear_service_tool](https://github.com/SolWear/solwear_service_tool)** | Desktop debugger |
 
-**We think the wallet you actually use should be the one you actually wear.**
+## What it does
 
-## What SolWear is
+- **Solana wallet on your wrist** — designed so keys stay on the device and approvals happen on its own screen
+- **Tap-to-pay NFC** — send and receive Solana payment URIs by tapping a phone, terminal, or another SolWear
+- **A real smartwatch** — square-icon app launcher, watch faces, step tracking, alarms, animated charging screen
+- **Custom from-scratch OS** — built in-house, top to bottom
 
-A smartwatch that's also a Solana hardware wallet. The design:
+## Built for
 
-- Keys stay on the watch — never on a phone, never on a computer.
-- Transactions are approved with a tap, on the watch's own screen.
-- Payments go through by tapping NFC — phone, terminal, or another SolWear.
-- And under all of that, it's a **real smartwatch** — watch faces, step tracking, alarms, apps, the whole thing.
-
-## SolWear vs. the alternatives
-
-| | Dedicated device | Always with you | Taps to pay | Actually used daily |
-|---|:---:|:---:|:---:|:---:|
-| USB hardware wallet | ✅ | ❌ | ❌ | ❌ |
-| Phone wallet app | ❌ | ✅ | ⚠️ | ✅ |
-| **SolWear** | **✅** | **✅** | **✅** | **✅** |
-
-## Who we are
-
-The **SolWear team**, building for the **Frontier Hackathon**. Hardware, firmware, desktop tooling, branding — all in-house. We built the full stack because the experience has to be native, not bolted on.
-
-## See more
-
-**[Full project, prototype & demo →](https://github.com/SolWear/solwear)**
+The **Frontier Hackathon** — by the SolWear team.
+Hardware, firmware, desktop tools, and branding — all in-house.
 
 ---
 
 <div align="center">
 
-*Portable. Light. Always on you.*
-**The Solana wallet you actually wear.**
+**[See the full project →](https://github.com/SolWear/solwear)**
+
+<sub>Portable. Light. Always with you. The Solana wallet you actually wear.</sub>
 
 </div>
