@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/SolWear/solwear/main/website/public/watch-hero.png" alt="SolWear prototype visual" width="100%" />
+  <img src="solwear-pitch-01.png" alt="SolWear — Your Crypto. On Your Wrist." width="100%" />
 </p>
 
 <div align="center">
