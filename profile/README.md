@@ -29,11 +29,11 @@ SolWear is building a wearable Solana hardware wallet for everyday payments and 
 
 | Repository | Visibility | Purpose | Stack |
 | --- | --- | --- | --- |
-| [solwear](https://github.com/SolWear/solwear) | Public | Prototype bundle and main review surface | ESP-IDF, Kotlin, Python, Next.js |
+| [solwear](https://github.com/SolWear/solwear) | Public | Prototype bundle — firmware, mobile, service tool, website, and profile in one place | ESP-IDF, Kotlin, Python, Next.js |
+| [solwear_site](https://github.com/SolWear/solwear_site) | Public | Product website with signup, pinboard, and supporting pages | Next.js, React, Tailwind |
+| [solwear_sdk](https://github.com/SolWear/solwear_sdk) | Public | Desktop service tool for serial inspection, settings, and firmware flashing | Python, Tkinter |
 | solwear_os | Private | Embedded smartwatch firmware with wallet, UI, NFC, storage, and hardware drivers | C, ESP-IDF, ESP32-S3 |
 | solwear_mobile | Private | Android companion for NFC pairing, wallet preview, signing, and relay | Kotlin, Jetpack Compose |
-| solwear_service_tool | Private | Desktop development utility for inspection, settings, and flashing | Python, Tkinter |
-| solwear_site | Private | Product website and supporting pages | Next.js, React, Tailwind |
 
 ## Why It Matters
 
